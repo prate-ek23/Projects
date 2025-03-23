@@ -1,5 +1,6 @@
 import NavBar from './AppNav';
 import EventList from './EventList';
+import Footer from './Footer';
 function Content() {
   const status = ['concluded', 'ongoing', 'upcoming'];
 
@@ -11,6 +12,7 @@ function Content() {
           <EventList status={st} />
         ))}
       </div>
+      <Footer></Footer>
     </>
   );
 }

@@ -1,5 +1,6 @@
 import NavBar from './AppNav';
 import DiscussionForum from './DiscussionForum';
+import Footer from './Footer';
 
 function Community() {
   return (
@@ -12,6 +13,7 @@ function Community() {
         <p>Join the DiscussionForum</p>
 
         <DiscussionForum />
+        <Footer />
       </div>
     </>
   );

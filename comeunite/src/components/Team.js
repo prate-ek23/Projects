@@ -1,6 +1,7 @@
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import NavBar from './AppNav';
+import Footer from './Footer';
 
 const images = [
   'https://images.unsplash.com/photo-1612837017391-1b8b7e88c833?w=800&h=400&crop=entropy&auto=format&fit=crop',
@@ -9,16 +10,15 @@ const images = [
 ];
 
 const style = {
-    // display: 'flex',
-     
+  // display: 'flex',
 };
 
 function Team() {
   return (
     <>
       <NavBar />
-TEAM
-     
+      TEAM
+      <Footer />
     </>
   );
 }

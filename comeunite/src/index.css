@@ -29,6 +29,11 @@ code {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #000235;
+  font-family: 'inter';
+}
+
 .home {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -182,4 +187,9 @@ code {
   100% {
     transform: translateX(-100%);
   } /* Adjust direction and distance */
+}
+
+.fa-icon {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 600; /* Required for solid icons */
 }
